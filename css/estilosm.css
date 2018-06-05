@@ -1,0 +1,116 @@
+body{
+	color:#666;
+	background-color: #f0f0f0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+	width: 1000px;
+	min-height: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	border: solid 1px #ccc;
+}
+.center{
+	text-align: center;
+}
+.left{
+  text-align: left;
+}
+.form input {
+	width: 75%;
+	padding: 6px;
+}
+.form_fic_cod input {
+  width: 20%;
+  padding: 6px;
+}
+.form_fic_des input {
+  width: 70%;
+  padding: 6px;
+}
+.footer{
+	font-size: 12px;
+	color: #ff6905;
+  bottom: 0px;
+  padding-bottom: 0px;
+}
+#resultados{
+	min-height: 450px;
+}
+.detalles{
+	margin-bottom: 5px;
+	background-color: #f1f1f1;
+	padding:2px;
+}
+.detalles a{
+	text-decoration: none;
+	font-size: 10px;
+}
+.titulo{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.desc{
+  color: #505050;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.contenido{
+	font-size: 14px;
+	color: #666;
+}
+.contenido a{
+	color: #666;
+}
+.plano{
+	width: 800px;
+	height: 100px;
+	min-height: 100px;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	border: solid 1px #ccc;
+}
+
+
+
+
+img#logo
+{
+  width: 175px;
+  margin-top: 1px;
+}
+
+
+
+
+.btn-group button {
+    /*background-color: #4CAF50; /* Green background */
+    background-color: #FF8C00;
+    border: 1px solid green; /* Green border */
+    /*color: white; */
+     color:  white;
+     font-style: bold;
+
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: center; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    /*background-color: #3e8e41;*/
+    background-color: #A9A9A9;
+}
