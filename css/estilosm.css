@@ -17,6 +17,11 @@ body{
 .left{
   text-align: left;
 }
+.acercade{
+	font-size: 15px;
+	text-align: right;
+	color: #ff6905;
+}
 .form input {
 	width: 75%;
 	padding: 6px;
@@ -30,13 +35,13 @@ body{
   padding: 6px;
 }
 .footer{
-	font-size: 12px;
+	font-size: 5px;
 	color: #ff6905;
   bottom: 0px;
   padding-bottom: 0px;
 }
 #resultados{
-	min-height: 450px;
+	min-height: 320px;
 }
 .detalles{
 	margin-bottom: 5px;
@@ -93,7 +98,7 @@ img#logo
      color:  white;
      font-style: bold;
 
-    padding: 10px 24px; /* Some padding */
+    padding: 10px 18.55px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: center; /* Float the buttons side by side */
 }

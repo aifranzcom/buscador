@@ -1,0 +1,183 @@
+body{
+	color:#666;
+	background-color: #f0f0f0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+	width: 1000px;
+	min-height: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	border: solid 1px #ccc;
+}
+.center{
+	text-align: center;
+}
+.form input {
+	width: 80%;
+	padding: 6px;
+}
+.footer{
+	font-size: 14px;
+	color: #ff6905;
+}
+#resultados{
+	min-height: 450px;
+}
+.detalles{
+	margin-bottom: 5px;
+	background-color: #f1f1f1;
+	padding:2px;
+}
+.detalles a{
+	text-decoration: none;
+	font-size: 10px;
+}
+.titulo{
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.contenido{
+	font-size: 16px;
+	color: #666;
+}
+.contenido a{
+	color: #666;
+}
+.plano{
+	width: 800px;
+	height: 100px;
+	min-height: 100px;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	border: solid 1px #ccc;
+}
+
+
+
+
+
+
+
+
+div#Principal
+{
+  width: 90%;
+  margin-left: 5%;
+  min-height: 500px;
+}
+img#logo
+{
+  width: 150px;
+  margin-top: -10px;
+}
+/*FORMULARIO INICIO DE SESION*/
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+/*FORMULARIO REGISTRO*/
+
+.form-signinn {
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -40px;
+}
+.form-signinn .form-signinn-heading,
+.form-signinn .checkbox {
+  margin-bottom: 10px;
+}
+.form-signinn .checkbox {
+  font-weight: 400;
+}
+.form-signinn .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: 39px;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.form-signinn .form-control:focus {
+  z-index: 2;
+}
+select#Tipo
+{
+  width: 30%;
+}
+#Documento
+{
+  width: 70%;
+  margin-left: 30%;
+  margin-top: -39px;
+  border-bottom:
+}
+#Guardar
+{
+  margin-top: 15px;
+  width: 30%;
+}
+#Limpiar
+{
+  margin-top: -46px;
+  width: 30%;
+  background: rgb(9, 136, 61);
+  margin-left: 35%;
+
+}
+#Limpiar:hover
+{
+  background: rgb(9, 98, 45);
+}
+#Cancelar
+{
+  margin-top: -46px;
+  width: 30%;
+  background: rgb(159, 6, 6);
+  margin-left: 70%;
+
+}
+#Cancelar:hover
+{
+  background: rgb(113, 2, 2);
+}
+/*--------------------------------------*/
+#texto
+{
+  text-align: center;
+}
+img#bienvenido
+{
+  width: 90%;
+  margin-left: 5%;
+}
+#obj
+{
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+}

@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Buscador con AJAX y jQuery</title>
+	<title>Buscador</title>
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/estilosm.css">
 </head>
@@ -11,19 +11,26 @@
 	<div id="container">
 		<img src="../img/logoMetro.png" id="logo">
 	</div>
+	<div class="acercade">
+		<li><a href="../php/acercade.php"><strong>Elaboraron </strong></a></li>
+	</div>
+	<div class="form center">
+			<h2><b>Informaci&oacuten T&eacutecnica de V&iacuteas</b></h2>
+	</div>
+
 	<br>
 	<div class="btn-group center">
-		<a href="../neu.php"><button>Neum&aacutetico</button></a>
-		<a href="../php/ferreo.php"><button>F&eacuterreo</button></a>
-		<a href="../php/fic.php"><button>Ficha de Inspecci&oacuten de Calidad</button></a>
+		<a href="../neu.php"><button>Planos Tipo Metro Neum&aacutetico</button></a>
+		<a href="../php/ferreo.php"><button>Planos Tipo Metro F&eacuterreo</button></a>
+		<a href="../php/fic.php"><button>Fichas de Inspecci&oacuten de Control de Calidad</button></a>
 		<a href="../php/ets.php"><button>Especificaciones T&eacutecnicas</button></a>
-  		<a href="../php/libros.php"><button>Libros naranja</button></a>
+  		<a href="../php/libros.php"><button>Libros Naranja</button></a>
 	</div>
 	<br>
 	<div class="container">
 		<div class="form center">
 			<form action="" method="post" name="form_libros" id="form_libros">
-				<h2 class="center">Informaci&oacuten t&eacutecnica en Libros Naranja</h2>
+				<h3 class="center">Informaci&oacuten T&eacutecnica en Libros Naranja</h3><br>
 			</form>
 		</div>	
 		<div id="resultados">
@@ -37,7 +44,7 @@
 	$total = mysqli_num_rows($resultado);
 ?>
 <?php if ($total>0) { ?>
- 			<h2>Contenido: <?php echo $total; ?></h2>
+ 			<h3>Contenido: <?php echo $total; ?></h3>
  			<?php do { ?>
  				<div class="detalles">
  					<a href="librosvpdf.php?id=<?php echo $fila['id']?>#toolbar=0 ">
@@ -51,9 +58,6 @@
 elseif ($total>0) echo '';
 else echo '';
 ?>
-		</div>
-		<div class="footer center"><br><br><br>
-			Sistema de Transporte Colectivo  <span>&#8226;</span> Direcci&oacuten de Ingenier&iacutea y Desarrollo Tecnol&oacutegico <span>&#8226;</span> Gerencia de Ingenier&iacutea y Nuevos Proyectos <span>&#8226;</span> Coordinaci&oacuten de Desarrollo Tecnol&oacutegico <span>&#8226;</span> &Aacuterea Inform&aacutetica
 		</div>
 	</div>
 </body>
