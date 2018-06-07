@@ -3,14 +3,6 @@
 	sleep(0.5);
 	$codigo_ets = '';
 
-	
-	/*if(isset($_POST['codigo_ets'])){
-		$codigo_ets = $_POST['codigo_ets'];
-	}
-
-	$consulta = "SELECT id, especificacion, descripcion FROM especificaciones WHERE especificacion LIKE '%" .$codigo_ets. "%' OR descripcion LIKE '%" .$codigo_ets. "%' ";*/
-
-
 	if(isset($_POST['codigo_ets'])){
 		$codigo_ets = $_POST['codigo_ets'];
 		if($codigo_ets == "*"){
@@ -18,11 +10,6 @@
 		}
 		else $consulta = "SELECT id, especificacion, descripcion FROM especificaciones WHERE especificacion LIKE '%" .$codigo_ets. "%' OR descripcion LIKE '%" .$codigo_ets. "%' ";
 	}	
-
-
-
-
-
 
 	$resultado = $connect->query($consulta);
 	$fila = mysqli_fetch_assoc($resultado);

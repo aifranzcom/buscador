@@ -1,15 +1,7 @@
 <?php 
 	require_once('../conn/connect.php');
 	sleep(0.5);
-
 	$search = '';
-
-
-	/*if(isset($_POST['search'])){
-		$search = $_POST['search'];
-	}*/
-
-
 	if(isset($_POST['search'])){
 		$search = $_POST['search'];
 		if($search == "*"){
@@ -17,11 +9,6 @@
 		}
 		else $consulta = "SELECT * FROM detalles WHERE detalles LIKE '%" .$search. "%' ";
 	}
-
-
-
-
-	/*$consulta = "SELECT * FROM detalles WHERE detalles LIKE '%" .$search. "%' ";*/
 	$resultado = $connect->query($consulta);
 	$fila = mysqli_fetch_assoc($resultado);
 	$total = mysqli_num_rows($resultado);
@@ -42,7 +29,7 @@
 				</div>
  			<?php } while ($fila=mysqli_fetch_assoc($resultado)); ?>
 <?php }
-elseif ($total>0 && $search=='') echo '<h3>Ingresa un parametro de busqueda</h3>';
+elseif ($total>0 && $search=='') echo '<p align="center">Escribe palabra a buscar o <b>*</b> para mostrar contenido</p>';
 else echo '<h2>No se encontraron resultados por criterio de busqueda en Detalles.</h2><p>Intenta con otra palabra</p>';
 ?>
 <br>

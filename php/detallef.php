@@ -35,7 +35,7 @@
 <br>
 	<div class="container">
 		<div class="form center">
-			<a href="javascript:history.back(1);">Volver atras</a>
+			<a href="javascript:history.back(1);">Volver atr&aacutes</a>
 		</div>
 		<div class="resultados">
 			<h1><?php echo "Id: " .strtoupper(utf8_encode($fila['id'])) ?></h1>
@@ -54,9 +54,6 @@
 				</div>
  			<?php } while ($filae=mysqli_fetch_assoc($resultadoe)); ?>
 <?php } */?>
-		<div class="footer center"><br>
-			Sistema de Transporte Colectivo  <span>&#8226;</span> Direcci&oacuten de Ingenier&iacutea y Desarrollo Tecnol&oacutegico <span>&#8226;</span> Gerencia de Ingenier&iacutea y Nuevos Proyectos <span>&#8226;</span> Coordinaci&oacuten de Desarrollo Tecnol&oacutegico <span>&#8226;</span> &Aacuterea Inform&aacutetica
-		</div>
 	</div>
 </body>
 </html>
